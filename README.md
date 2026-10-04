@@ -20,7 +20,7 @@ Ein ausgedientes Android-Telefon wird zur Ankerwache: Es merkt, wenn das Boot vo
 4. **`Einrichten.bat` doppelklicken.** Der Assistent führt Sie durch alles Weitere. Er lädt die nötigen Programme selbst von den offiziellen Quellen, legt mit Ihnen den Telegram-Bot und die Gruppe an und fragt, welche Zusätze Sie wollen (Tabelle unten). Fragt Windows „Der Computer wurde durch Windows geschützt“, wählen Sie *Weitere Informationen > Trotzdem ausführen*; fragt Play Protect am Telefon nach, wählen Sie *Trotzdem installieren*.
 5. **Fertig.** In Ihrer Telegram-Gruppe erscheint „Ankerwache gestartet“. Antworten Sie mit `POSITION`, um die Ankerwache zu prüfen.
 
-Bei Telefonen von Huawei, Honor oder Xiaomi sind danach noch einige Energiespar-Schalter nötig, die der Assistent am Ende nennt (Details: [Bauanleitung](Bauanleitung.md), Abschnitt 2).
+> **Wichtig:** Jeder Hersteller (Samsung, Xiaomi, Huawei, Honor, Oppo, OnePlus und andere) bringt eigene Energiespar- und Hintergrundregeln mit, die Apps ohne Warnung beenden können. Prüfen Sie deshalb auf Ihrem Telefon, dass für Termux, Termux:API, Termux:Boot und GPSLogger alle Energiesparoptionen ausgeschaltet sind (Akku „Nicht eingeschränkt“, Autostart und Hintergrundbetrieb erlaubt, App in der Übersicht gesperrt), und testen Sie den Alarm über Nacht. Bei Telefonen von Huawei, Honor oder Xiaomi sind danach noch bekannte Schalter nötig (Details: [Bauanleitung](Bauanleitung.md), Abschnitt 2).
 
 ## Was der Assistent fragt
 

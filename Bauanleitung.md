@@ -29,6 +29,8 @@ Eine vorhandene `konfiguration.json` verwendet der Assistent unverändert; ohne 
 
 ## 2. Android-Einstellungen
 
+> **Wichtig:** Jeder Hersteller (Samsung, Xiaomi, Huawei, Honor, Oppo, OnePlus und andere) bringt eigene Energiespar- und Hintergrundregeln mit, die Apps ohne Warnung beenden können. Prüfen Sie deshalb auf Ihrem Telefon, dass für Termux, Termux:API, Termux:Boot und GPSLogger alle Energiesparoptionen ausgeschaltet sind (Akku „Nicht eingeschränkt“, Autostart und Hintergrundbetrieb erlaubt, App in der Übersicht gesperrt), und testen Sie den Alarm über Nacht.
+
 - **Termux:API:** Standort „Immer zulassen“ und „Genauer Standort“, SMS erlauben (Senden und Lesen).
 - **Mobile Daten schalten (`DATEN EIN/AUS`):** Das darf nur Root oder ADB. Gerootetes Telefon: Termux dauerhaft Root-Rechte geben. Ohne Root: `pkg install android-tools` (macht `einrichten.sh`), per USB `adb tcpip 5555`, dann in Termux `adb connect 127.0.0.1:5555` und am Telefon „Immer zulassen“ (der Schnellweg erledigt das). `adb tcpip` gilt nur bis zum nächsten Neustart des Telefons; danach schaltet `DATEN EIN/AUS` nur das WLAN, bis `adb tcpip 5555` erneut per USB gegeben wird. Solange ADB per TCP an ist, lauscht es im Netz auf Port 5555; fremde Rechner brauchen aber die Freigabe am Bildschirm.
 - **Termux, Termux:API und Termux:Boot:** Akkunutzung „Nicht eingeschränkt“ bzw. „Nicht optimieren“.

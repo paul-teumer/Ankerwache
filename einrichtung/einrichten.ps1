@@ -227,5 +227,5 @@ if ($wahl.AdbLokal) {
     & $adb tcpip 5555
     Write-Host 'Am Telefon "USB-Debugging zulassen?" mit "Immer zulassen" bestätigen. Nach jedem Neustart des Telefons erneut per USB: adb tcpip 5555'
 }
-Write-Host 'Am Telefon noch: Einstellungen > Akku > App-Start: Termux, Termux:API, Termux:Boot manuell, alle Schalter ein (nur Huawei/Honor). Termux in der Übersicht sperren.'
+Write-Host "`nWICHTIG: Jeder Hersteller (Samsung, Xiaomi, Huawei, Honor, Oppo, OnePlus und andere) bringt eigene Energiespar- und Hintergrundregeln mit, die Apps ohne Warnung beenden können. Prüfen Sie deshalb auf Ihrem Telefon, dass für Termux, Termux:API, Termux:Boot und GPSLogger alle Energiesparoptionen ausgeschaltet sind (Akku „Nicht eingeschränkt“, Autostart und Hintergrundbetrieb erlaubt, App in der Übersicht gesperrt), und testen Sie den Alarm über Nacht. Bei Huawei und Honor: Einstellungen > Akku > App-Start, die vier Apps auf manuell mit allen Schaltern ein." -ForegroundColor Yellow
 Read-Host 'Eingabetaste zum Schließen'
