@@ -1,0 +1,10 @@
+# Lokal, nie veröffentlichen: Zugangsdaten, persönliche Angaben und heruntergeladene Fremdsoftware
+lokal/
+
+# Erzeugte Dateien
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+daten/
+*.flo
+*.apk

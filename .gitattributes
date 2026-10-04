@@ -1,0 +1,9 @@
+# Skripte laufen auf Android (Termux) und brechen mit Windows-Zeilenenden ab.
+*.sh text eol=lf
+*.py text eol=lf
+*.json text eol=lf
+*.properties text eol=lf
+# Windows PowerShell 5.1 liest Umlaute nur mit Byte-Order-Mark; cmd.exe braucht CRLF.
+# Unverändert gespeichert, damit auch das ZIP-Archiv von GitHub diese Fassung enthält.
+*.ps1 -text
+*.bat -text
