@@ -1,0 +1,14 @@
+{
+  "telegramToken": "123456789:HIER-TOKEN-VOM-BOTFATHER",
+  "telegramGruppe": -1001234567890,
+  "smsEmpfänger": ["+491701234567"],
+  "sicherheitszuschlagMeter": 20,
+  "genauigkeitsgrenzeMeter": 15,
+  "messintervallSekunden": 30,
+  "zweiteMeldungNachSekunden": 1800,
+  "gpsWarnungNachSekunden": 1800,
+  "batteriewarnungProzent": 20,
+  "meldeweg": "telegram",
+  "lebenszeichenHäufigkeit": "täglich",
+  "lebenszeichenUhrzeit": "09:00"
+}
