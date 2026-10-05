@@ -2,6 +2,8 @@
 
 Ein ausgedientes Android-Telefon wird zur Ankerwache (Ankeralarm, Ankerwacht, Driftalarm): Es merkt, wenn das Boot vom Anker treibt, und alarmiert per SMS und Telegram, auch wenn Sie nicht an Bord sind. Steuerung per Telegram-Gruppe oder SMS, zusätzlich Track-Aufzeichnung und regelmäßige Lebenszeichen. Mit dem Befehl `DATEN AUS` läuft alles ohne mobile Daten, nur über SMS.
 
+**[Ankerwache herunterladen](https://github.com/paul-teumer/Ankerwache/archive/refs/heads/main.zip)** – ZIP entpacken und `Einrichten.bat` doppelklicken (Einrichtung in 5 Schritten unten).
+
 *English:* Free, open-source anchor alarm / anchor watch / drag alarm for boats and sailing yachts, running on an Android phone (Termux, GPS). Sends SMS and Telegram alerts when your boat drags anchor, supports remote control by SMS or Telegram, track recording and heartbeat messages, and works without mobile data (SMS only). Setup wizard for Windows, documentation in German.
 
 ## Funktionen auf einen Blick
